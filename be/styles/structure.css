@@ -1,0 +1,82 @@
+/*  RESET  */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, 
+blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, 
+img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, 
+center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, 
+tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, 
+figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, 
+mark, audio, video {	
+	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	
+	font: inherit;	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {	line-height: 1;}
+ol, ul {	list-style: none;}
+blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}
+table {	border-collapse: collapse;	border-spacing: 0;}
+
+/* GENERALES */
+body{ font-family: arial; }
+a{ font-size: 12px; text-decoration: none; }
+h1,h2,h3,h4,h5{ font-family: arial; }
+h1,h3{ font-weight: bold; }
+h1, h2 {font-size: 18px }
+h3, h4 { font-size: 16px; }
+p{ margin:2px; padding:2px; color:#333; font-size: 12px; }
+span{ color:#eee;}
+.error{ 
+	color:red;
+	font-size: 10px;
+	font-weight: bold;
+}
+/*  ESTRUCTURAS  */
+.right{ float: right; }
+.left{ float: left }
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
+.tright{ text-align: right; }
+.tleft{ text-align: left:; }
+.tcenter{ text-align: center; }
+.col-xs{ width: 30px; }
+.col-s{ width: 50px; }
+.col-m{ width: 100px; }
+.col-l{ width: 200px; }
+.col-xl{ width: 300px; }
+.col-xxl{ width: 400px; }
+.col-xs2{ width: 35px; }
+.col-s2{ width: 75px; }
+.col-m2{ width: 150px; }
+.col-l2{ width: 250px; }
+.col-xl2{ width: 350px; }
+.col-xxl2{ width: 450px; }
+/* ESQUELETO */
+#content {
+	width:980px;
+	margin:0px auto;
+	text-align:left;
+}
+#page2, #page3, #page4, #page5{
+	display: none;
+}

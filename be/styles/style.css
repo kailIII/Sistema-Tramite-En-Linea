@@ -1,0 +1,254 @@
+/* HEADER */
+#user-nav{ width: 100%; background: #dedede; padding-top: 3px; padding-bottom: 3px;}
+#user-nav ul { margin: 0;}
+#user-nav ul li { margin:0 5px;}
+#user-nav ul li.separator { color:#555;}
+/* MENU  */
+#menu{
+	width:100%;
+	margin-bottom:10px;
+	background:#00588a;
+}
+#menu ul { margin: 0;}
+#menu ul li{
+	background:#00588a;
+	padding:6px;
+	border-right:solid 1px #00466e;
+	border-left:solid 1px #3379a1;
+}
+#menu ul li.separator{ color: #005991;}
+#menu ul li a{
+	color:#fff;
+	font-size:14px;
+	text-decoration: none;
+}
+
+#menu li:hover{ 
+	background-color: #3088ba;
+}
+
+/* TABS  */
+#tabs{
+	width:100%;
+	margin-bottom:10px;
+}
+#tabs ul li{
+	background:#00588a;
+	padding:6px;
+	border-right:solid 1px #00466e;
+	border-left:solid 1px #3379a1;
+}
+#tabs ul li.separator{ color: #005991;}
+#tabs ul li a{
+	color:#fff;
+	font-size:14px;
+	text-decoration: none;
+}
+
+/*  MAIN  */
+#main{ 
+	min-height: 400px; 
+	margin-bottom: 10px;
+}
+/* FOOTER */
+#footer {
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	background-color: #0068A4;
+	clear: both;
+	width: 980px;
+	color:white;
+}
+#footer a{ color:#fff;}
+/* FORM CONTAINER */
+#form-container{
+	margin-top: 20px;
+	width:100%;
+	text-align: center;
+}
+#form-container .inner{
+	width:400px;
+	margin: 0 auto;
+	padding:10px;
+	border: 1px solid #aaaaaa;
+}
+#form-container p.error{ margin: 5px 0;}
+#form-container form{ margin-top:10px; }
+#form-container form p{ width: 100%; text-align: center;}
+#form-container form p label{ display:block; float:right; margin-right: 10px; line-height:22px;}
+#form-container form p input[type=text],#form-container form p input[type=number], 
+#form-container form p input[type=password], #form-container form p input[type=checkbox],
+#form-container form p select, #form-container form p textarea
+{ 
+	display:block; 
+	float:right; 
+	margin-right: 85px; 
+	line-height: 20px;
+}
+#form-container form p input[type=text],#form-container form p input[type=number], #form-container form p input[type=password],
+#form-container form p select, #form-container form p textarea{
+		width:180px;
+}
+#form-container form p input[type=checkbox]{
+	margin-right: 253px;
+}
+#form-container form p input[type="button"]{ display: inline; float:none; margin:0; }
+
+#form-container h6{ color:white; margin: 5px; }
+
+/*
+	TRAMITES
+*/
+#tipos-tramite{
+	width:250px;
+	margin:30px auto;
+}
+#tipos-tramite li{
+	text-align: center;
+	margin:10px 0;
+	border: solid 1px #88aaab;
+	padding:5px;
+	background-color: #00588a;
+}
+#tipos-tramite li a{
+	text-decoration: none;
+	color: #eee;
+}
+#tipos-tramite li:hover{ 
+	background-color: #3088ba;
+}
+/*
+	ABMs ADIMISTRACION
+*/
+#abm-container{ width:800px; margin: 0 auto;}
+#abm-container h3{ text-align: center; }
+#abm-container h6{ color:white; margin: 5px; }
+#abm-container .abm-list{ border: solid 1px #88aaab; margin-top:10px;}
+#abm-container .abm-list .abm-head{
+	padding:0;
+	margin:0;
+	display: inherit;
+}
+#abm-container .abm-list .abm-head ul.columns,
+#abm-container .abm-list .abm-item ul.columns{ 
+	width:100%;
+}
+#abm-container .abm-list .abm-head ul.columns{ background: #00588a; }
+#abm-container .abm-list .abm-head li{
+	text-align: center; 
+	line-height:30px; 
+	border-left: solid 1px #ccc;
+}
+
+#abm-container .abm-list .abm-item li{ 
+	text-align: center; 
+	line-height:45px; 
+	border-left: solid 1px #ccc;
+}
+#abm-container .abm-list .abm-head li:first-child,
+#abm-container .abm-list .abm-item li:first-child{ 
+	border-left:0;
+}
+#abm-container .abm-list .abm-item{ width:100%;  border-bottom: 1px solid #ddd; display: inherit;}
+#abm-container .abm-list .abm-item li{ font-size: 12px; }
+#abm-container .abm-list .abm-item li input{  margin: 5px; }
+#abm-container .abm-list .abm-item li input:hover { cursor: pointer; }
+
+
+/*
+MIS TAREAS
+*/
+#mis-tareas h3{ text-align: center; }
+#mis-tareas #btnNuevo{ font-size: 14px; padding:7px; }
+#mis-tareas .btn-container{ width:100%;}
+#mis-tareas .filter-container{ margin:10px 0; width: 100%;}
+#mis-tareas .filter{ 
+	float:right; 
+	width: 270px; 
+	margin:0 10px; 
+	font-size: 14px;
+	font-weight: bold;
+}
+#mis-tareas .filter:first{
+	margin-right:0;
+}
+#mis-tareas #tramiteButtons{
+	width:100%;
+}
+#mis-tareas #tramiteButtons .tramiteButtons-inner{
+	padding:4px;
+
+}
+#mis-tareas #tramiteButtons.readonly a,
+#mis-tareas #tramiteButtons.readonly select{
+	background: #dedede;
+	border:solid 1px #cecece;
+	color:#666;
+}
+#mis-tareas #tramiteButtons a,
+#mis-tareas #tramiteButtons select{
+	margin:0 20px;
+}
+/*#mis-tareas #tramiteButtons select{
+	font-size: 12px;
+	padding: 3px;
+	width:200px;
+	font-weight:bold;
+	background-color:#005991;
+	border:none;
+}*/
+#mis-tareas { width:900px; margin: 0 auto;}
+#mis-tareas h3{ text-align: center; }
+#mis-tareas .tareas-list{ border: solid 1px #88aaab; margin-top:10px;}
+#mis-tareas .tareas-list .tareas-head{
+	border-bottom: solid 1px #88aaab;
+	padding:0;
+	margin:0;
+}
+
+#mis-tareas .tareas-list .tareas-head ul,
+#mis-tareas .tareas-list .tareas-item ul{
+	display: inherit;
+}
+
+#mis-tareas .tareas-list .tareas-head ul.columns,
+#mis-tareas .tareas-list .tareas-item ul.columns{ 
+	width:100%;
+}
+#mis-tareas .tareas-list .tareas-head ul.columns{ background: #00588a; }
+
+#mis-tareas .tareas-list .tareas-head li{ 
+	text-align: center; 
+	line-height:30px; 
+	border-left: solid 1px #ccc;
+}
+
+#mis-tareas .tareas-list .tareas-item li{ 
+	text-align: center; 
+	height:48px; 
+	border-left: solid 1px #ccc;
+	padding: 5px;
+}
+#mis-tareas .tareas-list .tareas-head li:first-child,
+#mis-tareas .tareas-list .tareas-item li:first-child{ 
+	border-left:0;
+}
+#mis-tareas .tareas-list .tareas-item{ width:100%; }
+#mis-tareas .tareas-list .tareas-item li{ font-size: 10px; }
+/**
+Carga observacion
+**/
+#carga-observacion{ width:800px; margin: 0 auto;}
+#carga-observacion h3{ text-align: center; }
+#carga-observacion form p{ width:100%; }
+#carga-observacion #observacion{ width:800px; height:300px; }
+/**
+Checklist
+**/
+#formularios div.space.odd{
+	background: #e5e5e5;
+}
+#formularios div.check input[type=checkbox]{
+	float: right;
+	margin-right: 80px;
+}
